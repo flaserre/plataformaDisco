@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Agregar Canción - Taylor Swift
+    </title>
+    <link rel="icon" type="image/x-icon" href="./Img/favicon.ico">
+</head>
+<body>
+
+    <div class="fondo"></div>
+
+    <div class="bg-gray-800 text-white w-1/5 min-h-screen w-1/5	fixed" >
+        <div class="p-5">
+            <div class="flex items-center space-x-4">
+                <img src="https://img.freepik.com/vector-premium/3d-mujer-joven-avatar-feliz-sonriente-cara-icono_313242-1241.jpg" alt="Foto de perfil" class="w-10 h-10 rounded-full">
+                <div>
+                    <h1 class="text-2xl font-semibold">Sol Garcia</h1>
+                </div>
+            </div>
+        </div>
+        <ul class="py-4">
+            <li class="px-5 py-2 hover:bg-gray-700">
+                <a href="./index.html" class="block">Other Albums</a>
+            </li>
+            <li class="px-5 py-2 hover:bg-gray-700">
+                <a href="./editAlbum.html" class="block">Edit Album</a>
+            </li>
+            <li class="px-5 py-2 hover:bg-gray-700">
+                <a href="./addSong.html" class="block">Add Song</a>
+            </li>
+            <li class="px-5 py-2 hover:bg-gray-700">
+                <a href="./login.html" class="block">Log Out</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="contenido">
+    <h1 class="text-7xl	italic font-serif	text-center			">Agregar canción</h1>
+    
+    <form class="mt-10">
+        <label>Título:<input type="text" class="border rounded-lg py-2 px-4 w-full" name="Título" placeholder="Título" required></label>
+        <label>Duración: <br>
+            <input type="number" class="border rounded-lg py-2 px-4 w-1/5" name="Minutos:" placeholder="Minutos:" min="0" max="59" inputmode="numeric" required>
+            <input type="number" class="border rounded-lg py-2 px-4 w-1/5" name="Segundos:" placeholder="Segundos:" min="0" max="59" inputmode="numeric" required>
+        
+        </label>
+        <br>
+        <label>Link:<input type="URL" class="border rounded-lg py-2 px-4 w-full" name="Link" placeholder="URL Link" required></label>
+        <input type="submit" class="bg-pink-500 hover:bg-pink-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-5">
+        <input type="button" value="Volver" class="bg-pink-500 hover:bg-pink-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-5">
+
+    </form>
+
+   
+    
+</body>
+</html>
+
+
