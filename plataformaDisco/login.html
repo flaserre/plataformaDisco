@@ -16,18 +16,28 @@
     <div >
     <h1 class="text-7xl	italic font-serif	text-center			">Log In</h1>
 
-     <form class="mt-10 text-center">
-        
-        <label>Mail: <input type="email" name="email" placeholder="Mail" required></label>
-        <label>Contraseña: <input type="password" name="contrasena" placeholder="Contraseña" required></label>
-        <input type="submit" class="bg-pink-500 hover:bg-pink-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-5">
-
+    <form class="mt-10 text-center">
+        <div class="flex justify-center">
+            <div class="mr-4">
+                <label class="block">Mail: <input type="email" name="email" placeholder="Mail" id="mail" required></label>
+            </div>
+            <div>
+                <label class="block">Contraseña: 
+                    <input type="password" name="contrasena" placeholder="Contraseña" id="contrasena" required>
+                </label>
+                <p class="text-gray-500 text-xs mt-1" id="leyenda"></p>
+            </div>
+        </div>
+        <input type="submit" class="bg-pink-500 hover:bg-pink-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-5" id="submit">
     </form>
 
     <div class="mt-10 text-center">
         ¿Aún no sos miembro?
         <a href="./signUp.html" class="bg-pink-500 hover:bg-pink-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-5">Registrate</a>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert"></script>
+    <script src="./login.js"></script>
+
 </body>
 </html>
 

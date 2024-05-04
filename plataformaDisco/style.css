@@ -35,3 +35,9 @@
   margin-left: 22%;
   margin-right: 2%;
 }
+
+.nofav {
+  color: rgb(19, 18, 18);
+  cursor: pointer;
+  font-size: 24px;
+}
