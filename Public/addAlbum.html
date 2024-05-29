@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Agregar Album - Taylor Swift
+    </title>
+    <link rel="icon" type="image/x-icon" href="./Img/favicon.ico">
+</head>
+<body>
+
+    <div class="fondo"></div>
+
+    <div class="bg-gray-800 text-white w-1/5 min-h-screen w-1/5	fixed" >
+        <div class="p-5">
+            <div class="flex items-center space-x-4">
+                <img src="https://img.freepik.com/vector-premium/3d-mujer-joven-avatar-feliz-sonriente-cara-icono_313242-1241.jpg" alt="Foto de perfil" class="w-10 h-10 rounded-full">
+                <div>
+                    <h1 class="text-2xl font-semibold">Sol Garcia</h1>
+                </div>
+            </div>
+        </div>
+        <ul class="py-4">
+            <li class="px-5 py-2 hover:bg-gray-700">
+                <a href="./index.html" class="block">Other Albums</a>
+            </li>
+            <li class="px-5 py-2 hover:bg-gray-700">
+                <a href="./editAlbum.html" class="block">Edit Album</a>
+            </li>
+            <li class="px-5 py-2 hover:bg-gray-700">
+                <a href="./addSong.html" class="block">Add Song</a>
+            </li>
+            <li class="px-5 py-2 hover:bg-gray-700">
+                <a href="./login.html" class="block">Log Out</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="contenido">
+    <h1 class="text-7xl	italic font-serif	text-center			">Agregar Album</h1>
+    
+    <form class="mt-10" id="formAdd">
+        <label>Título:<input type="text" class="border rounded-lg py-2 px-4 w-full" name="Título" placeholder="Título" required></label>
+        <label>Año de lanzamiento:<input type="number" min="1900" max="2100" class="border rounded-lg py-2 px-4 w-full" name="Año de lanzamiento:" placeholder="Año de lanzamiento:" required></label>
+        <label>Descripción:<textarea id="consultas" rows="5" cols="40" name="Descripción" class="border rounded-lg py-2 px-4 w-full" placeholder="Descripción"></textarea>
+        </label>
+        <label>Imagen:<input type="URL" class="border rounded-lg py-2 px-4 w-full" name="Imagen" placeholder="URL Imagen" required></label>
+        <input type="submit" class="bg-pink-500 hover:bg-pink-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline mt-5">
+
+    </form>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./addAlbum.js"></script>
+
+</body>
+</html>
+
+

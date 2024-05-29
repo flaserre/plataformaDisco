@@ -1,0 +1,48 @@
+  .fondo {
+    background-image: url(./Img/Background.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; 
+    height: 100vh; 
+    pointer-events: none;
+    z-index: -1;
+    background-position: center center;
+    
+
+ 
+  }
+
+
+  .descripcion {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.album {
+ 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 3%;
+  margin-top: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+
+.contenido {
+  margin-left: 22%;
+  margin-right: 2%;
+}
+
+.nofav {
+  color: rgb(19, 18, 18);
+  cursor: pointer;
+  font-size: 24px;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
